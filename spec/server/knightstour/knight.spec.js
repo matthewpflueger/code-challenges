@@ -1,7 +1,7 @@
 'use strict';
 
 var _ = require('highland');
-var Knight = require('../../server/knight')();
+var Knight = require('../../../server/knightstour/knight')();
 
 
 describe('Knight', function() {
