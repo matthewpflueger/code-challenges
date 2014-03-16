@@ -1,5 +1,5 @@
 {
-  "name": "highland-test",
+  "name": "code-challenges",
   "version": "0.1.0",
   "dependencies": {
     "highland": "~1.19.1"
@@ -26,6 +26,10 @@
   },
   "engines": {
     "node": ">=0.10.0"
+  },
+  "bin": {
+    "knightstour": "./bin/knightstour",
+    "boatmoorings": "./bin/boatmoorings"
   },
   "scripts": {
     "start": "node server",
