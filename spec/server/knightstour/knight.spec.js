@@ -43,7 +43,6 @@ describe('Knight', function() {
   it('should return a stream of moves from a given location', function(done) {
     var knight = new Knight(3);
     knight.moves.take(8).toArray(function(ma) {
-      console.log('ma ', ma);
       expect(ma.length).toBe(8);
 
       var i = -1;
