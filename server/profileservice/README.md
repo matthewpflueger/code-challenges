@@ -6,7 +6,7 @@ We are going to be creating a page that allows a user to create an account in ou
 User Flow:
   - user navigates to a web page and sees a form to enter their information and upload a picture
   - when a user uploads their picture to Cloudinary.com they are able to see a preview
-  - when a user hits submit all their info (including relevant picture info) is sent to a Node.js server (written in CoffeeScript) as a form post
+  - when a user hits submit all their info (including relevant picture info) is sent to a Node.js server as a form post
   - IF successful (all form fields entered, password is at least 5 characters, etc) the page is refreshed to display a success message AND their information with their pic (to show what they entered)
   - IF NOT successful redisplay the page with an appropriate error message
  

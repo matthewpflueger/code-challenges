@@ -22,8 +22,10 @@
     "requirejs": false,
     "angular": false,
     "describe": false,
+    "ddescribe": false,
     "xdescribe": false,
     "it": false,
+    "iit": false,
     "xit": false,
     "before": false,
     "beforeEach": false,
@@ -32,6 +34,9 @@
     "expect": false,
     "spyOn": false,
     "inject": false,
-    "define": false
+    "define": false,
+    "element": false,
+    "by": false,
+    "browser": false
   }
 }
